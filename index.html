@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+     <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <script src="https://code.jquery.com/jquery-3.2.1.js"
+     integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+     crossorigin="anonymous"></script>
+     <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Celebrity</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Celebrity Dating Quiz</h1>
+      </div>
+      <form id="formone">
+
+          <div class="form-group">
+          <label for="age">Enter your Age:</label>
+          <input id="age" class="form-control" type="text">
+          </div>
+
+          <div class="form-group">
+            <label for="age">Select your gender:</label>
+            <select class="form-control" id="gender">
+              <option value = "genderx">Your gender</option>
+              <option value = "male">Male</option>
+              <option value = "female">Female</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="music">Select your music:</label>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="rap">
+              Rap
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="pop">
+              Pop
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="music" value="classical">
+              Classical
+            </label>
+            </div>
+          </div>
+          <button type="submit" name="button">Match Yourself</button>
+      </form>
+      <div id="celebrity">
+        <div id="male-rap">
+          <h2>Eminem</h2>
+          <img src="https://www.biography.com/.image/t_share/MTQ3NjM5MTEzMTc5MjEwODI2/eminem_photo_by_dave_j_hogan_getty_images_entertainment_getty_187596325.jpg" height="600" width="600" alt="eminem pic">
+        </div>
+        <div id="female-rap">
+          <h2>Lil Mama</h2>
+          <img src="http://www.hawtcelebs.com/wp-content/uploads/2017/06/lil-mama-at-bet-awards-2017-in-los-angeles-06-25-2017_1.jpg" height="600" width="600" alt="lilmama pic">
+        </div>
+
+        <div id="male-pop">
+          <h2>Justin Bieber</h2>
+          <img src="https://pmcvariety.files.wordpress.com/2017/05/justin_bieber.png?w=1000&h=750&crop=1" height="600" width="600" alt="justinbieber pic">
+        </div>
+        <div id="female-pop">
+          <h2>Taylor Swift</h2>
+          <img src="http://www.thedailyrecords.com/wp-content/uploads/2017/01/Taylor-Swift.jpg" height="600" width="600" alt="taylorswift pic">
+
+        </div>
+        <div id="male-classical">
+          <h2>Yesudas</h2>
+          <img src="https://silverscreen.in/wp-content/uploads/2014/09/kathalikka-neramillai-50-year-celebrations-lq-065.jpg" height="600" width="600" alt="yesudas pic">
+
+        </div>
+        <div id="female-classical">
+          <h2>Kaushiki Chakroborty</h2>
+          <img src="https://i.ytimg.com/vi/1hWAOReJehw/maxresdefault.jpg" height="600" width="600" alt="kaushiki pic">
+
+        </div>
+
+
+
+      </div>
+
+    </div>
+
+  </body>
+</html>
